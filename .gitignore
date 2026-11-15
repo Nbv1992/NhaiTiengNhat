@@ -1,0 +1,11 @@
+.env
+.env.*
+!.env.example
+!backend/.env.example
+backend/.env
+backend/node_modules/
+backend/uploads/videos/*
+!backend/uploads/videos/.gitkeep
+node_modules/
+.vercel/
+*.log
